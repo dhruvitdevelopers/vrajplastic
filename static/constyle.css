@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Balsamiq+Sans&family=Merriweather+Sans&family=Teko:wght@700&display=swap');
+.container
+{
+    background: url("/static/img/logo3.png");
+    
+}
+
+h1{
+    justify-content: center;
+    display: flex;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: bisque;
+    
+}
+.myForm{
+    background: url("/static/img/logo3.png");
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+    opacity: 0.8;
+}
+.btn{
+    background-color: chartreuse;
+    color: black;
+    padding: 8px 38px;
+    border-radius: 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+input{
+    
+    width: 70%;
+    padding: 11px;
+    margin: 13px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

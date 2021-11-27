@@ -1,0 +1,18 @@
+extends  base.pug
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/constyle.css
+block content
+    div.container
+        br
+        br
+        h1 contact us 
+        form(action= "/requirement", method= "post", class= "myForm")
+            <input type="text"class= “name” name="name" placeholder="Enter your name..">
+            <input type="text"class= “name” name="subname" placeholder="subject">
+            <input type="phone" class= “myInput” name="phone" placeholder="Enter your number..">
+            <input type="email" class= “myInput” name="email" placeholder="Enter your email..">
+            button(class="btn")
+                | submit
